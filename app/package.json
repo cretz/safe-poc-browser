@@ -1,0 +1,15 @@
+{
+  "name": "safe-poc-browser",
+  "productName": "SAFE POC Browser",
+  "identifier": "com.github.cretz.safe-poc-browser",
+  "description": "Simple POC of a SAFE Browser.",
+  "version": "0.1.0",
+  "author": "cretz",
+  "main": "background.js",
+  "license": "MIT",
+  "dependencies": {
+    "fs-jetpack": "^0.7.0",
+    "libsodium-wrappers": "^0.2.12",
+    "request": "^2.69.0"
+  }
+}

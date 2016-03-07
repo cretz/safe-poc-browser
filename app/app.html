@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>SAFE POC Browser</title>
+
+    <link href="./bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="./bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+    <script>window.$ = window.jQuery = require('./bower_components/jquery/dist/jquery.min.js');</script>
+    <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div id="pre-browser"></div>
+        <div class="row" id="browser" style="display: none">
+            <div class="col-md-2 panel panel-default" style="height: 100vh; margin-bottom: 0px; padding: 0px">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Open Tabs</h3>
+                </div>
+                <ul id="openTabUl" class="panel-body open-tab-panel-body nav nav-pills nav-stacked" style="padding: 0px">
+                </ul>
+                <button id="newTabButton" type="button" class="btn btn-success btn-sm btn-block" style="position: absolute; bottom: 0; right: 0">New Tab</button>
+            </div>
+            <div id="tabBodyDiv" class="col-md-10" style="padding: 0px; height: 100vh">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

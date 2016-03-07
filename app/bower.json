@@ -1,0 +1,23 @@
+{
+  "name": "safe-poc-browser",
+  "description": "safe-poc-browser",
+  "main": "background.js",
+  "authors": [
+    "cretz"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
